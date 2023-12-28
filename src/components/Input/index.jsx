@@ -1,6 +1,6 @@
-import { Container } from './styles'
+import { Container } from "./styles";
 
-export function Input({
+export function Input({ 
   type,
   placeholder,
   icon: Icon,
@@ -14,5 +14,5 @@ export function Input({
       {Icon && <Icon />}
       <input type={type} placeholder={placeholder} value={value} {...rest} />
     </Container>
-  )
+  );
 }

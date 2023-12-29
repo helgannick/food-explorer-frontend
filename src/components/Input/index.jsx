@@ -1,5 +1,6 @@
 import { Container } from "./styles";
 
+
 export function Input({ 
   type,
   placeholder,
@@ -9,10 +10,13 @@ export function Input({
   ...rest
 }) {
   return (
-    <Container>
+    <Container >
       {label}
       {Icon && <Icon />}
       <input type={type} placeholder={placeholder} value={value} {...rest} />
     </Container>
   );
+
+  
 }
+

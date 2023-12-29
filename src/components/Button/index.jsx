@@ -1,6 +1,8 @@
 import { forwardRef } from "react";
 import { Container } from "./styles";
 
+
+
 export const Button = forwardRef(function Button(
   { title, isText = false, isCenter = false, onClick, icon: Icon, ...rest },
   ref
@@ -19,3 +21,5 @@ export const Button = forwardRef(function Button(
     </Container>
   );
 });
+
+
